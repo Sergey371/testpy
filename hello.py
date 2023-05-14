@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+"""Hello World test script."""
 
 from decimal import Decimal
 
@@ -9,8 +10,8 @@ D = Decimal("2312")
 print("Нетто         : " + str(D))
 print("Нетто в 10 шт.: " + str(D * 10))
 
-x = 0.1 + 0.1 + 0.1
-print(x)
+X = 0.1 + 0.1 + 0.1
+print(X)
 print("----------------------")
-x = Decimal('0.1') + Decimal('0.1') + Decimal('0.1')
-print(x)
+X = Decimal('0.1') + Decimal('0.1') + Decimal('0.1')
+print(X)
